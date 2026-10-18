@@ -1,0 +1,7 @@
+{
+  "routes": [
+    { "src": "/predict", "dest": "main.py" },
+    { "handle": "filesystem" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}
