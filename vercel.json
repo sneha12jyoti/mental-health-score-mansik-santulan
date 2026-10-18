@@ -1,7 +1,5 @@
 {
-  "routes": [
-    { "src": "/predict", "dest": "main.py" },
-    { "handle": "filesystem" },
-    { "src": "/(.*)", "dest": "/index.html" }
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
